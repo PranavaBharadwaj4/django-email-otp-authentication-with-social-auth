@@ -150,8 +150,8 @@ AUTH_USER_MODEL = 'authentication.CustomUser'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'indiantiger2001@gmail.com'
-EMAIL_HOST_PASSWORD = 'qbnbhlhyktuhisjs'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
 
 
@@ -253,13 +253,13 @@ DJOSER = {
 
 
 # ================================= Social Auth Settings ====================================
-SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '589452167869-6h25f0les5634nv1ba5kbhics6cpf007.apps.googleusercontent.com'
-SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = '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'
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = ''
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = ''
 SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = ['https://www.googleapis.com/auth/userinfo.email', 'https://www.googleapis.com/auth/userinfo.profile', 'openid']
 SOCIAL_AUTH_GOOGLE_OAUTH2_EXTRA_DATA = ['email','username']
 
-SOCIAL_AUTH_FACEBOOK_KEY = '209627121688452'
-SOCIAL_AUTH_FACEBOOK_SECRET = '7267ea687c0da54677362122a756db01'
+SOCIAL_AUTH_FACEBOOK_KEY = ''
+SOCIAL_AUTH_FACEBOOK_SECRET = ''
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
 SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
     'fields': 'email, username, last_name'
